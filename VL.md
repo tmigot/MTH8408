@@ -10,6 +10,8 @@ The type of problems is either: OP (for OptimizationProblems.jl), OP-PDE (for Op
 
 There are 51 NLS problems, 16 OP, and 15 OP-PDE.
 
+**NEED TO CHECK WHETHER SOME OF THE PROBLEMS ARE ALREADY IMPLEMENTED**
+
 | Name in the report | Type of problems | Implemented in JSO? | name of the file in JSO |
 | --- | --- | --- | --- |
 | Problem 1. Chained Rosenbrock function [7]. | NLS | [ ] | |
@@ -100,6 +102,8 @@ Ladislav Luksan, Jan Vlček
 Test Problems for Unconstrained Optimization (November 2003), Technical report No. 897.
 https://www.researchgate.net/publication/325314497_Test_Problems_for_Unconstrained_Optimization
 
+| Name in the report | Type of problems | Implemented in JSO? | name of the file in JSO |
+| --- | --- | --- | --- |
 | Problem 23. Penalty function 2 [23] | NLS | [ ] | |
 | Problem 24. Penalty function 3 [11] | OP | [ ] | |
 | Problem 27. Penalty function 1 [23] | NLS | [ ] | |
