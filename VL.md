@@ -94,3 +94,23 @@ There are 51 NLS problems, 16 OP, and 15 OP-PDE.
 | Problem 80. Potra and Rheinboldt boundary value problem [23]. | OP | [ ] | |
 | Problem 81. | OP | [ ] | |
 | Problem 82. | OP | [ ] | |
+
+This test set overlaps with
+Ladislav Luksan, Jan Vlček
+Test Problems for Unconstrained Optimization (November 2003), Technical report No. 897.
+https://www.researchgate.net/publication/325314497_Test_Problems_for_Unconstrained_Optimization
+
+| Problem 23. Penalty function 2 [23] | NLS | [ ] | |
+| Problem 24. Penalty function 3 [11] | OP | [ ] | |
+| Problem 27. Penalty function 1 [23] | NLS | [ ] | |
+| Problem 28. Variably dimensioned function [23] | NLS | [ ] | |
+| Problem 29. Brown almost linear function [23] | NLS | [ ] | |
+| Problem 30. Discrete boundary value function [23] | NLS | [ ] | |
+| Problem 50. Toint exponential-trigonometric merging problem [30]. | NLS | [ ] | |
+| Problem 74. | NLS | [ ] | | (check connection with Problem 69 or 70 above)
+| Problem 75. Problem 201 in [27]. | NLS | [ ] | | 
+| Problem 77. Problem 205 in [27]. | NLS | [ ] | |
+| Problem 81. Problem 209 in [27]. | NLS | [ ] | |
+| Problem 85. Gheri and Mancino problem [9]. | OP | [ ] | |
+| Problem 86. Ortega and Rheinboldt problem [24]. | OP | [ ] | |
+| Problem 88. Ascher and Russel boundary value problem [2]. | OP | [ ] | | (There are two, while above only one)
