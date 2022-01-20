@@ -48,8 +48,8 @@ The following references will help us navigate in Julia:
 
 In Julia, the documentation is either accessible online, ALL the packages are on Github, or you can use `?` in the Julia REPL (terminal).
 
--[ ] After reading `notebook_0.ipynb`. Write a function that solve second order polynomial equation, i.e. `ax² + bx + c = 0`.
--[ ] After reading `notebook_linear_algebra.ipynb`.  Write a function verifying that given a matrix `A` is symmetric positive definite. Add at least 2 test cases.
+- [ ] After reading `notebook_0.ipynb`. Write a function that solve second order polynomial equation, i.e. `ax² + bx + c = 0`.
+- [ ] After reading `notebook_linear_algebra.ipynb`.  Write a function verifying that given a matrix `A` is symmetric positive definite. Add at least 2 test cases.
 
 The notebook `laboratoire1.ipynb` was used in a linear algebra class and contains additional information. 
 
