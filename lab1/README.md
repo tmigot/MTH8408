@@ -109,8 +109,9 @@ You can find more references for optimization in Julia:
 
 We can be particularly proud of the JuliaSmoothOptimizers and its numerous packages because it is developed at Polytechnique Montreal in Prof. Dominique Orban's team (don't hesitate to ⭐).
 
--[ ] After reading `notebook_jump.ipynb`. Try to solve the 2d test problem seen in class with these tools.
--[ ] After reading `notebook_nlpmodels.ipynb`. Try to solve the 2d test problem seen in class with these tools.
+-[ ] After reading `notebook_jump.ipynb`. Try to solve the 2d test problem `f(x₁,x₂) = 100(x₂ - x₁²)² + (1 - x₁)²` with these tools.     
+
+-[ ] After reading `notebook_nlpmodels.ipynb`. Try to solve the 2d test problem `f(x₁,x₂) = 100(x₂ - x₁²)² + (1 - x₁)²` with these tools.
 
 ## Exercise 5: Make a Jupyter Notebook
 
