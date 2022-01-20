@@ -105,7 +105,7 @@ This way, when you send a script or a notebook to somebody, you can send the .jl
 
 You can find more references for optimization in Julia:
 - [https://jump.dev/JuMP.jl/stable/](https://jump.dev/JuMP.jl/stable/) for JuMP-dev
-- [jso-docs.github.io](jso-docs.github.io) for JuliaSmoothOptimizers.
+- [jso-docs.github.io](https://jso-docs.github.io) for JuliaSmoothOptimizers.
 
 We can be particularly proud of the JuliaSmoothOptimizers and its numerous packages because it is developed at Polytechnique Montreal in Prof. Dominique Orban's team (don't hesitate to ⭐).
 
