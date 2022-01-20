@@ -128,3 +128,8 @@ The last command will start a new window of your favorite browser where you can 
 - [ ] Create a code with a nice title and the usual hello world. Note that the text formatting is in markdown here, see [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
 
 The report containing the code and responses to the "lab project" will be a Jupyter Notebook.
+
+## Exercise 1-c: Github Pull Request
+
+For those already there, feel free to `modify` the `README.md` at the source of the MTH8408 repository, `push` it to your repository, and make a `pull request`.
+It makes no sense? You can check on the web. We will go back to this next time :).
