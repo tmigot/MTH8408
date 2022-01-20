@@ -1,6 +1,6 @@
 # 1st lab
 
-Welcome in our first lab session \:smiley: . The aim of this first session is to:
+Welcome to our first lab session \:smiley: . This first session aims to:
 - Exercise 1: check that we have everything installed to code in Julia, i.e. VS Code, Julia, and Github.
 - Exercise 2: Use a Jupyter notebook.
 - Exercise 3: Run over the basics in Julia
@@ -25,12 +25,12 @@ Bonus question:
 
 - [ ] Create a Github account.
 - [ ] Go to [https://github.com/tmigot/MTH8408](https://github.com/tmigot/MTH8408)
-- [ ] Star ⭐ the repository. This one is just to cheer-up the developer(s) of this repo.
-- [ ] and make a *Fork*. A *Fork* will create a copy of this repository on your personal space that you can safely modify.
+- [ ] Star ⭐ the repository. This one is just to cheer up the developer(s) of this repo.
+- [ ] and make a *Fork*. A *Fork* will create a copy of this repository in your personal space that you can safely modify.
 - [ ] In this new repository, you will create an `Issue` entitled `Lab 1: TODOs` and where you copy-paste this readme. You should get a todo-list that can be checked when you advance in this lab. (Use the "pen" symbol at the top of the README to access the code of the README)
 
 In VS Code:
-- [ ] Follow this procedure to connect github and VS Code: [https://code.visualstudio.com/docs/editor/github](https://code.visualstudio.com/docs/editor/github) (install the app and log in)
+- [ ] Follow this procedure to connect Github and VS Code: [https://code.visualstudio.com/docs/editor/github](https://code.visualstudio.com/docs/editor/github) (install the app and log in)
 - [ ] We will now *clone* this repository on your computer. In VS Code:
     * Open the command palette with the key combination of Ctrl + Shift + P .
     * At the command palette prompt, enter gitcl , select the Git: Clone command, and press Enter.
@@ -39,14 +39,13 @@ In VS Code:
 At the end of the day, you should have a copy of this repository on your machine.
 
 Github is hosting open-sources packages in many languages. Most of the tools you use are hosted there! 
-Open-source means everybody can contribute either by creating issues, making new tutorials, suggesting new features or even develop new features!
+Open-source means everybody can contribute either by creating issues, making new tutorials, suggesting new features, or even developing new features!
 
 ## Exercise 2: Basics in Julia
 
-The following references will help us navigating in Julia:
+The following references will help us navigate in Julia:
 - [Julia for Pythonistats](https://www.machinelearningplus.com/julia/julia-programming-language-for-pythonistas-a-practical-tutorial/)
 - [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org)
-- 
 
 In Julia, the documentation is either accessible online, ALL the packages are on Github, or you can use `?` in the Julia REPL (terminal).
 
@@ -60,8 +59,8 @@ The notebook `laboratoire1.ipynb` was used in a linear algebra class and contain
 You can find more information on `Pkg.jl` in the online doc [https://pkgdocs.julialang.org/v1.2/](https://pkgdocs.julialang.org/v1.2/).
 
 To use a package and the functions in this package, in Julia, we use `using Name_of_the_package`.
-Some of these packages are accessible natively, for instance `LinearAlgebra`.
-However, some other packages, needs to be installed.
+Some of these packages are accessible natively, for instance, `LinearAlgebra`.
+However, some other packages needs to be manually added.
 
 Julia has a package environment accessible with `]` (everything becomes blue instead of green). You can go back with `RETURN`.
 
@@ -101,7 +100,7 @@ Now add a new package
 ] NLPModels
 ```
 This package is added to both files (with other dependencies).
-This way, when you send a script or a notebook to somebody, you can send the .jl and the environment to make they use the right versions of the packages!
+This way, when you send a script or a notebook to somebody, you can send the .jl and the environment to make them use the right versions of the packages!
 
 ## Exercise 4: Optimization
 
@@ -109,7 +108,7 @@ You can find more references for optimization in Julia:
 - [https://jump.dev/JuMP.jl/stable/](https://jump.dev/JuMP.jl/stable/) for JuMP-dev
 - [jso-docs.github.io](jso-docs.github.io) for JuliaSmoothOptimizers.
 
-We can be particularly proud of the JuliaSmoothOptimizers and its numerous packages, because it is developped at Polytechnique Montreal in Prof. Dominique Orban's team (don't hesitate to ⭐).
+We can be particularly proud of the JuliaSmoothOptimizers and its numerous packages because it is developed at Polytechnique Montreal in Prof. Dominique Orban's team (don't hesitate to ⭐).
 
 -[ ] After reading `notebook_jump.ipynb`. Try to solve the 2d test problem seen in class with these tools.
 -[ ] After reading `notebook_nlpmodels.ipynb`. Try to solve the 2d test problem seen in class with these tools.
@@ -117,13 +116,15 @@ We can be particularly proud of the JuliaSmoothOptimizers and its numerous packa
 ## Exercise 5: Make a Jupyter Notebook
 
 In Julia, there are three ways to run/show codes.
-- [ ] You can code directly in the terminal (partical to test small things)
-- [ ] right your code in a file ending with .jl and include in the terminal: `julia> include("name_of_your_file.jl")`
-- [ ] run a Jupyter notebook.
+- Code directly in the terminal (practical to test small things)
+- Write your code in a file ending with .jl and include in the terminal: `julia> include("name_of_your_file.jl")`
+- Run a Jupyter notebook:
 ```
 ] add IJulia
 using IJulia
 notebook()
 ```
-The last command will start a new window of your favorite browser where you can do everything. Notebooks are a user-friendly of communicating codes with explanations.
+The last command will start a new window of your favorite browser where you can do everything. Notebooks are user-friendly for communicating codes with explanations.
 - [ ] Create a code with a nice title and the usual hello world. Note that the text formatting is in markdown here, see [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
+
+The report containing the code and responses to the "lab project" will be a Jupyter Notebook.
