@@ -26,7 +26,7 @@ Bonus question:
 - [ ] Go to [https://github.com/tmigot/MTH8408](https://github.com/tmigot/MTH8408)
 - [ ] Star ⭐ the repository. This one is just to cheer up the developer(s) of this repo.
 - [ ] and make a *Fork*. A *Fork* will create a copy of this repository in your personal space that you can safely modify.
-- [ ] In this new repository, you will create an `Issue` entitled `Lab 1: TODOs` and where you copy-paste this readme. You should get a todo-list that can be checked when you advance in this lab. (Use the "pen" symbol at the top of the README to access the code of the README)
+- [ ] <s>In this new repository</s> In the `tmigot/MTH8408` repository, you will create an `Issue` entitled `Lab 1: TODOs` and where you copy-paste this readme. You should get a todo-list that can be checked when you advance in this lab. (Use the "pen" symbol at the top of the README to access the code of the README)
 
 In VS Code:
 - [ ] Follow this procedure to connect Github and VS Code: [https://code.visualstudio.com/docs/editor/github](https://code.visualstudio.com/docs/editor/github) (install the app and log in)
