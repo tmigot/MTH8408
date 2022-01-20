@@ -1,12 +1,11 @@
 # 1st lab
 
 Welcome to our first lab session \:smiley: . This first session aims to:
-- Exercise 1: check that we have everything installed to code in Julia, i.e. VS Code, Julia, and Github.
-- Exercise 2: Use a Jupyter notebook.
-- Exercise 3: Run over the basics in Julia
-- Exercise 4: manage Julia package manager
-- Exercise 5: use JuMP to model an optimization problem, and use a solver.
-- Exercise 6: use ADNLPModels to model an optimization problem, and use a solver.
+- Exercise 1-(a/b/c): check that we have everything installed to code in Julia, i.e. VS Code, Julia, and Github.
+- Exercise 2: run over the basics in Julia
+- Exercise 3: manage Julia package manager
+- Exercise 4: use JuMP and ADNLPModels to model an optimization problem, and use a solver.
+- Exercise 5: use a Jupyter notebook.
 
 Some references are given below, but you can also find some in Moodle [*Outils d'optimisation et d'algèbre linéaire numérique*](https://moodle.polymtl.ca/course/view.php?id=2533)
 
