@@ -12,7 +12,3 @@ pkg> add IJulia # utiliser ] pour entrer en mode "package"
 julia> using IJulia # utiliser DEL pour en sortir
 julia> notebook(detached=true, dir="") # une fenêtre de votre browser devrait apparaître
 ```
-
-## Ressources Julia
-
-- [Liste de tutoriels sur le site officielde Julia](https://julialang.org/learning/tutorials/)
