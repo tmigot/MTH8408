@@ -20,28 +20,28 @@ Some references are given below, but you can also find some in Moodle [*Outils d
 
 ## Exercise 1-a: VS Code & Julia
 
-- [ ] Start VS Code;
-- [ ] In the left menu, "Extensions" install the *Julia* app. Note that VS Code works with different applications you can install for various use;
-- [ ] Start a terminal, menu *Terminal -> New Terminal*, and run the following command `julia`. This will start Julia and we can make our first command:
+- [x] Start VS Code;
+- [x] In the left menu, "Extensions" install the *Julia* app. Note that VS Code works with different applications you can install for various use;
+- [x] Start a terminal, menu *Terminal -> New Terminal*, and run the following command `julia`. This will start Julia and we can make our first command:
 ```
 print("Hello World")
 ```
 Bonus question:
-- [ ] Try this code in Julia: `😃` 
+- [x] Try this code in Julia: `😃` 
 
 Julia handles unicode characters [https://docs.julialang.org/en/v1/manual/unicode-input/](https://docs.julialang.org/en/v1/manual/unicode-input/) and that's one of the reasons mathematicians love it!
 
 ## Exercise 1-b: Github
 
-- [ ] Create a Github account;
-- [ ] Go to [https://github.com/tmigot/MTH8408](https://github.com/tmigot/MTH8408);
-- [ ] Star ⭐ the repository. This one is just to cheer up the developers of this repo;
-- [ ] Make a *Fork*. A *Fork* will create a copy of this repository in your personal space that you can safely modify;
-- [ ] In the `tmigot/MTH8408` repository, you will create an `Issue` entitled `Lab 1: TODOs` and where you copy-paste this readme. You should get a todo-list that can be checked when you advance in this lab. (Use the "pen" symbol at the top of the README to access the code of the README).
+- [x] Create a Github account;
+- [x] Go to [https://github.com/tmigot/MTH8408](https://github.com/tmigot/MTH8408);
+- [x] Star ⭐ the repository. This one is just to cheer up the developers of this repo;
+- [x] Make a *Fork*. A *Fork* will create a copy of this repository in your personal space that you can safely modify;
+- [x] In the `tmigot/MTH8408` repository, you will create an `Issue` entitled `Lab 1: TODOs` and where you copy-paste this readme. You should get a todo-list that can be checked when you advance in this lab. (Use the "pen" symbol at the top of the README to access the code of the README).
 
 In VS Code:
-- [ ] Follow this procedure to connect Github and VS Code: [https://code.visualstudio.com/docs/editor/github](https://code.visualstudio.com/docs/editor/github) (install the app and log in).
-- [ ] We will now *clone* this repository on your computer. In VS Code:
+- [x] Follow this procedure to connect Github and VS Code: [https://code.visualstudio.com/docs/editor/github](https://code.visualstudio.com/docs/editor/github) (install the app and log in).
+- [x] We will now *clone* this repository on your computer. In VS Code:
     * Open the command palette with the key combination of Ctrl + Shift + P ;
     * At the command palette prompt, enter `gitcl`, select the `Git: Clone` command, and press Enter;
     * When prompted for the Repository URL, select clone from GitHub, i.e. `https://github.com/your_username/MTH8408`, then press Enter.
@@ -59,8 +59,8 @@ The following references will help us navigate Julia:
 
 In Julia, the documentation is either accessible online [https://docs.julialang.org/](https://docs.julialang.org/en/v1/), ALL the packages are on Github, or you can use `?` in the Julia REPL (terminal).
 
-- [ ] After reading `notebook_0.ipynb`. Write a function that solves the second-order polynomial equation, i.e. `ax² + bx + c = 0`.
-- [ ] After reading `notebook_linear_algebra.ipynb`.  Write a function verifying that given a matrix `A` is a symmetric positive definite. Add at least 2 test cases.
+- [x] After reading `notebook_0.ipynb`. Write a function that solves the second-order polynomial equation, i.e. `ax² + bx + c = 0`.
+- [x] After reading `notebook_linear_algebra.ipynb`.  Write a function verifying that given a matrix `A` is a symmetric positive definite. Add at least 2 test cases.
 
 The notebook `laboratoire1.ipynb` was used in a linear algebra class and contains additional information. 
 
@@ -74,7 +74,7 @@ However, some other packages need to be manually added.
 
 Julia has a package environment accessible with `]` (everything becomes blue instead of green). You can go back with `RETURN`.
 
-- [ ] Install the package `ADNLPModels`
+- [x] Install the package `ADNLPModels`
 ```
 using Pkg; Pkg.add("ADNLPModels")
 ```
@@ -83,7 +83,7 @@ or
 ] add ADNLPModels # this may not work if you open a notebook in VS Code
 ```
 This will add the package `ADNLPModels` in your environment, and you can then do `using ADNLPModels`.
-- [ ] It is possible to know the packages installed in your current environment with `status`:
+- [x] It is possible to know the packages installed in your current environment with `status`:
 ```
 Pkg.status()
 ```
@@ -92,13 +92,13 @@ or
 ] status
 ```
 This is especially important to check the versions of the different packages you are using.
-- [ ] You can remove a package using `rm`, or ask Julia to update the packages with `update`.
-- [ ] To install a specific version of a package using `pin`.
+- [x] You can remove a package using `rm`, or ask Julia to update the packages with `update`.
+- [x] To install a specific version of a package using `pin`.
 ```
 ] pin ADNLPModels@v0.3.1
 ```
 If this is impossible, because of version constraints between the different packages in your environment, Julia will let you know.
-- [ ] Different environments. All the packages we imported previously have been added to your basic environment.
+- [x] Different environments. All the packages we imported previously have been added to your basic environment.
 Different scripts might require different versions of packages or loading the environment might be very slow if it contains a lot of packages.
 Therefore, Julia has *Project Environments*.
 ```
@@ -125,9 +125,9 @@ You can find more references for optimization in Julia:
 
 We can be particularly proud of the JuliaSmoothOptimizers and its numerous packages because it is developed at Polytechnique Montreal in Prof. Dominique Orban's team (don't hesitate to ⭐).
 
-- [ ] After reading `notebook_jump.ipynb`. Try to solve the 2d test problem `f(x₁,x₂) = 100(x₂ - x₁²)² + (1 - x₁)²` with these tools.     
+- [x] After reading `notebook_jump.ipynb`. Try to solve the 2d test problem `f(x₁,x₂) = 100(x₂ - x₁²)² + (1 - x₁)²` with these tools.     
 
-- [ ] After reading `notebook_nlpmodels.ipynb`. Try to solve the 2d test problem `f(x₁,x₂) = 100(x₂ - x₁²)² + (1 - x₁)²` with these tools.
+- [x] After reading `notebook_nlpmodels.ipynb`. Try to solve the 2d test problem `f(x₁,x₂) = 100(x₂ - x₁²)² + (1 - x₁)²` with these tools.
 
 ## Exercise 5: Make a Jupyter Notebook
 
@@ -141,7 +141,7 @@ using IJulia
 notebook()
 ```
 The last command will start a new window of your favorite browser where you can do everything. Notebooks are user-friendly for communicating codes with explanations.
-- [ ] Create a code with a nice title and the usual hello world. Note that the text formatting is in markdown here, see [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
+- [x] Create a code with a nice title and the usual hello world. Note that the text formatting is in markdown here, see [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
 
 The report containing the code and responses to the "lab project" will be a Jupyter Notebook.
 
